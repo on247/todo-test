@@ -57,7 +57,7 @@ let getTodos=async()=>{
         'Content-Type': 'application/json'
       },
     }
-    return fetch(`${BASE_URL}/on247/todos/${id}/toggle`,request)
+    return fetch(`${BASE_URL}/${USER}/todos/${id}/toggle`,request)
     .then((res) => res.json())
     .then(data => {
       return data
