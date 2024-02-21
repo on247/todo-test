@@ -22,4 +22,4 @@ Open the src/app/api/api.tsx file to change the endpoint url and set the usernam
 
 ## Live deployment on Vercel
 
-[https://todo-test-ten-delta.vercel.app[
+[https://todo-test-ten-delta.vercel.app] 
